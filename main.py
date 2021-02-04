@@ -46,7 +46,7 @@ def solution(x):
             pizzasDeliveredToThreemembersTeam.append(tempList)
         no_of_pizzas = no_of_pizzas - 3 * no_of_four_members_team
     if 2 * no_of_two_members_team < no_of_pizzas:
-        no_of_two_members_team = no_of_two_members_team - no_of_pizzas
+        print("locho")
         for i in range(1, no_of_two_members_team + 1):
             tempList = []
             for j in range(1,3):
@@ -96,6 +96,10 @@ def solution(x):
 
 
 
+solution('a_example')
 solution('b_little_bit_of_everything (1).in')
+solution('c_many_ingredients.in')
+solution('d_many_pizzas.in')
+solution('e_many_teams.in')
 
 
